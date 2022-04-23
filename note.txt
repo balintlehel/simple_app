@@ -1,0 +1,33 @@
+Authentication:
+    Use a standart
+        support tools
+        robost framework
+
+    Bad idea: the account username and password
+
+    Authentication Options:
+        -   API key -- long unique srting sent on every request
+                - do not embed in the URL
+        -   Use in the header as a bearer token:
+                Authentication: Bearer ReallyLongUniqueString
+        -   Account ID and Token:
+                - Two long string uniqie on every requesst
+                - In the URL, a problem
+                - In the headers, similar to API key
+        -   OAuth 2.0:
+                -   Most powerfull, most complex
+                -   The gold standard, uses by FAANG companies
+
+    Cross-Framework Middleware
+        PHP FIG:
+            PSR-15 Middleware Defines:
+                -   MiddlewareInterface
+                -   ClientMiddlewareInterface
+                -   ServerMiddlewareInterface
+                -   FrameInterface
+                -   StackInterface
+
+
+
+
+

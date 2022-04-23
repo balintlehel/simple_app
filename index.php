@@ -4,18 +4,13 @@ require 'vendor/autoload.php';
 include 'bootstrap.php';
 
 use Chatter\Models\Message;
+use Chatter\Middleware\Logging as ChatterLogging;
+use Chatter\Middleware\Authentication as ChatterAuth;
 
 $app = new \Slim\App(['settings' => ['displayErrorDetails' => true]]);
+$app->add(new ChatterAuth());
+$app->add(new ChatterLogging());
 
-//$conn = mysqli_connect('database', 'admin', 'password', "chatter", 3306);
-//
-//
-//$query = 'SELECT id From messages';
-//$result = mysqli_query($conn, $query);
-//$mysqli = new mysqli("database", "root", "password", "chatter", 3306);
-//$result = $mysqli->query("SELECT * FROM messages");
-//var_dump($mysqli->get_connection_stats());  die();
-//Wierd but seams like the url is make differences betwen " and ' 
 $app->get('/messages', function($request, $response, $args) {
 
     $_message = new Message();
