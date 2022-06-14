@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38418c4b-709b-4924-b253-27de815aa62c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chatter/Middleware/Authentication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chatter/Middleware/Logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chatter/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/slim-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/slim-app.iml" afterDir="false" />
+    <list default="true" id="9acc07a1-6993-4ba5-893d-efa5e12591f9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chatter/Middleware/Authentication.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chatter/Middleware/Authentication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chatter/Middleware/Logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chatter/Middleware/Logging.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/slim/slim" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +53,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
     </include_path>
   </component>
-  <component name="ProjectId" id="28BOuUcB9itxZ04Ml6b8H7cZOP9" />
+  <component name="ProjectId" id="2AYq5Njlt6nXlJvuSreFTStJ2zd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,33 +62,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="38418c4b-709b-4924-b253-27de815aa62c" name="Changes" comment="" />
-      <created>1650686735110</created>
+      <changelist id="9acc07a1-6993-4ba5-893d-efa5e12591f9" name="Changes" comment="" />
+      <created>1655196682645</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1650686735110</updated>
-      <workItem from="1650686736325" duration="3194000" />
+      <updated>1655196682645</updated>
+      <workItem from="1655196683797" duration="1583000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
