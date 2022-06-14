@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9acc07a1-6993-4ba5-893d-efa5e12591f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/composer.json-with-aws-s3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chatter/Middleware/FileFilter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chatter/Middleware/FileMove.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chatter/Middleware/ImageRemoveExif.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mysql/chatter/messages.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/chatter/messages.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mysql/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/mysql/innodb_index_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mysql/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/mysql/innodb_table_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chatter/Models/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chatter/Models/Message.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/slim/slim" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,8 +69,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655196682645</updated>
-      <workItem from="1655196683797" duration="8983000" />
+      <workItem from="1655196683797" duration="11081000" />
     </task>
+    <task id="LOCAL-00001" summary="File Uploads via API">
+      <created>1655213091824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655213091824</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,5 +94,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="File Uploads via API" />
+    <option name="LAST_COMMIT_MESSAGE" value="File Uploads via API" />
   </component>
 </project>

@@ -14,26 +14,42 @@ $app = new \Slim\App(['settings' => ['displayErrorDetails' => true]]);
 $app->add(new ChatterAuth());
 $app->add(new ChatterLogging());
 
-$app->get('/messages', function($request, $response, $args) {
+$app->group('/v1', function () {
+    global $app;
+    $app->group('/messages', function () {
+        $this->map(['GET'], '', function ($request, $response, $args) {
+            $_message = new Message();
+            $messages = $_message->all();
 
-    $_message = new Message();
-    $messages = $_message->all();
+            $playload = [];
+            foreach ($messages as $_msg) {
+                $playload[$_msg->id] = $_msg->output();
+                $playload[$_msg->id]['v1'] = 'Version 1';
+            }
 
-    $playload = [];
-    foreach ($messages as $_msg) {
-        $playload[$_msg->id] = [
-            'body' => $_msg->body,
-            'user_id' => $_msg->user_id,
-            'user_uri' => '/user/' . $_msg->user_id,
-            'created_at' => $_msg->created_at,
-            'image_url' => $_msg->image_url,
-            'message_id' => $_msg->id,
-            'message_uri' => '/messages/' . $_msg->id
-        ];
-    }
-
-    return $response->withStatus(200)->withJson($playload);
+            return $response->withStatus(200)->withJson($playload);
+        })->setName('get_messages');
+    });
 });
+
+$app->group('/v2', function () {
+    global $app;
+    $app->group('/messages', function () {
+        $this->map(['GET'], '', function ($request, $response, $args) {
+            $_message = new Message();
+            $messages = $_message->all();
+
+            $playload = [];
+            foreach ($messages as $_msg) {
+                $playload[$_msg->id] = $_msg->output();
+                $playload[$_msg->id]['v2'] = 'Version 2';
+            }
+
+            return $response->withStatus(200)->withJson($playload);
+        })->setName('get_messages');
+    });
+});
+
 
 $filter = new FileFilter();
 $removeExif = new ImageRemoveExif();
@@ -62,7 +78,7 @@ $app->post('/messages', function ($request, $response, $args) {
     }
 })->add($filter)->add($removeExif)->add($move);
 
-$app->delete('/messages/{message_id}', function($request, $response, $args) {
+$app->delete('/messages/{message_id}', function ($request, $response, $args) {
     $message = Message::find($args['message_id']);
     $message->delete();
 
@@ -71,7 +87,6 @@ $app->delete('/messages/{message_id}', function($request, $response, $args) {
     } else {
         return $response->withStatus(204);
     }
-
 });
 
 $app->run();
