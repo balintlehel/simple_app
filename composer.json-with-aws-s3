@@ -1,0 +1,11 @@
+{
+    "require": {
+        "slim/slim": "^3.0",
+        "illuminate/database": "~5.2",
+        "doctrine/dbal": "^3.3"
+        "aws/aws-sdk-php": "^3,18"
+    },
+    "autoload": {
+        "psr-4": { "Chatter\\": "src/Chatter/"}
+    }
+}

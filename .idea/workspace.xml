@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9acc07a1-6993-4ba5-893d-efa5e12591f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/composer.json-with-aws-s3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chatter/Middleware/FileFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chatter/Middleware/FileMove.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chatter/Middleware/ImageRemoveExif.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/mysql/chatter/messages.frm" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/chatter/messages.frm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mysql/chatter/messages.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/chatter/messages.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/ibtmp1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mysql/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/mysql/innodb_index_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mysql/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/data/mysql/mysql/innodb_table_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
@@ -74,11 +78,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655196682645</updated>
-      <workItem from="1655196683797" duration="3110000" />
+      <workItem from="1655196683797" duration="8983000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
